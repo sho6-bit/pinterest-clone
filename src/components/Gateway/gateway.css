@@ -1,0 +1,102 @@
+.gateway-page {
+    width: 100%;
+    min-height: 100vh;
+    }
+
+.gateway-page > div {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.collage-background {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 3/3.5;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.collage-background > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.gateway-menu {
+    text-align: center;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    background: #ffffff;
+}
+
+.gateway-menu::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -99px;
+    height: 100px;
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        #ffffff
+    );
+}
+
+.gateway-menu > img {
+    width: 12%;
+    height: 12%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.gateway-menu > h2 {
+    width: 40%;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.gateway-menu > button {
+    font-size: 16px;
+    font-weight: 500;
+    width: 90%;
+    height: 45px;
+    border: none;
+    border-radius: 15px;
+}
+
+.signup-button {
+    color: white;
+    background-color: #E60024;
+    margin-top: 10px;
+}
+
+.login-button {
+    color: #000000;
+    background-color: #e4e5e0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.gateway-menu > p {
+    margin-top: 10px;
+    color: #000000;
+    font-size: 12px;
+    width: 90%;
+}
+
+.gateway-menu > p > a {
+    color: #000000;
+    font-size: 12px;
+    width: 90%;
+}

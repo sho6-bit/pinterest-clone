@@ -8,32 +8,30 @@ function Gateway({ onSignup }) {
             <div>
 
                 <div className="collage-background">
-
-                    <div className="collage-background-1">
-                        <img src="image1.jpg" alt="Image 1" />
-                        <img src="image2.jpg" alt="Image 2" />
-                        <img src="image3.jpg" alt="Image 3" />
-                    </div>
-
-                    <div className="collage-background-2">
-                        <img src="image4.jpg" alt="Image 4" />
-                        <img src="image5.jpg" alt="Image 5" />
-                        <img src="image6.jpg" alt="Image 6" />
-                    </div>
-
-                    <div className="collage-background-3">
-                        <img src="image7.jpg" alt="Image 7" />
-                        <img src="image8.jpg" alt="Image 8" />
-                        <img src="image9.jpg" alt="Image 9" />
-                    </div>
                     
+                        <img src="src/assets/images-bg/image1bg.jpeg" alt="Background Image 1" />
+                        <img src="src/assets/images-bg/image2bg.jpeg" alt="Background Image 2" />
+                        <img src="src/assets/images-bg/image3bg.jpeg" alt="Background Image 3" />
+                    
+                        <img src="src/assets/images-bg/image4bg.jpeg" alt="Background Image 4" />
+                        <img src="src/assets/images-bg/image5bg.jpeg" alt="Background Image 5" />
+                        <img src="src/assets/images-bg/image6bg.jpeg" alt="Background Image 6" />
+                                        
+                        <img src="src/assets/images-bg/image7bg.jpeg" alt="Background Image 7" />
+                        <img src="src/assets/images-bg/image8bg.jpeg" alt="Background Image 8" />
+                        <img src="src/assets/images-bg/image9bg.jpeg" alt="Background Image 9" />
+                                       
                 </div>
 
-                <div className="gateway-btn">
-                    <img src="pinterest-logo.png" alt="Pinterest Logo" />
+                <div className="gateway-menu">
+                    <img src="src/assets/images/pinterest-logo.png" alt="Pinterest Logo" />
                     <h2>Create a life you love</h2>
-                    <button onClick={onSignup}>Sign Up</button>
-                    <button>Log In</button>
+                    <button className="signup-button" onClick={onSignup}>
+                        Sign Up
+                    </button>
+                    <button className="login-button">
+                        Log In
+                    </button>
                     <p>You must be at least 16 years old to use Pinterest. By continuing, you agree to Pinterest's 
                         <a href="#">Terms of Service</a>, and acknowledge you've read our 
                         <a href="#">Privacy Policy</a>. 
