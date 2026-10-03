@@ -1,6 +1,13 @@
 import "./signup.css"
+import { useEffect, useRef } from "react";
 
 function EmailStep({ onNext, onBack }) {
+    const emailInput = useRef(null);
+
+    useEffect(() => {
+        emailInput.current?.focus()
+    }, [])
+
     return (
 
         <main className="email-page">
@@ -28,7 +35,10 @@ function EmailStep({ onNext, onBack }) {
 
                 <div className="signup-form">
                     <h1>What's your email?</h1>
-                    <input type="email" placeholder="Enter your email address" />
+                    <input 
+                    ref={emailInput}
+                    type="email" 
+                    placeholder="Enter your email address" />
                     <button className="next-button" type="button" onClick={onNext}>Next</button>
                 </div>
 
