@@ -1,3 +1,5 @@
+import "./signup.css"
+
 function PasswordStep({ onNext, onBack }) {
     return (
 

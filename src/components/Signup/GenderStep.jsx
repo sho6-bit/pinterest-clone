@@ -1,3 +1,5 @@
+import "./signup.css"
+
 function GenderStep({ onNext, onBack }) {
     return (
 

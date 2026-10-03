@@ -1,0 +1,77 @@
+.signup-header {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-button {
+    position: absolute;
+    left: 20px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-button > span {
+    width: 9px;
+    height: 9px;
+    border-left: 1.5px solid #000000;
+    border-bottom: 1.5px solid #000000;
+    transform: rotate(45deg);
+}
+
+.next-button {
+    color: white;
+    background-color: #E60024;
+    align-self: center;
+    font-size: 16px;
+    font-weight: 500;
+    width: 90%;
+    height: 45px;
+    border: none;
+    border-radius: 15px;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    list-style: none;
+}
+
+.progress-bar > li {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #E4E5E0;
+}
+
+.progress-bar > li.active {
+    background-color: #000000;
+}
+
+.signup-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.signup-form > input {
+    width: 90%;
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 1dvh;
+    align-self: center;
+}
