@@ -29,9 +29,11 @@
 }
 
 .next-button {
+    position: absolute;
+    left: 20px;
+    bottom:10%;
     color: white;
     background-color: #E60024;
-    align-self: center;
     font-size: 16px;
     font-weight: 500;
     width: 90%;
@@ -66,12 +68,38 @@
     width: 90%;
 }
 
+.signup-form > h1 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
 .signup-form > input {
+    font-size: 14px;
     width: 90%;
     height: 45px;
     padding: 10px;
-    margin-bottom: 10px;
     border: 1px solid #000000;
-    border-radius: 1dvh;
+    border-radius: 15px;
     align-self: center;
+}
+
+.suggestion-container {
+    width: 100%;    
+    scrollbar-width: none;
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.btn-suggest {
+    font-size: 14px;
+    color: #000000;
+    background-color:#E4E5E0;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    height: 25px;
+    flex: 0 0 auto;
 }
