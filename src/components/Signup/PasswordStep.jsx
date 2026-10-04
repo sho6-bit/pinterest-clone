@@ -11,7 +11,7 @@ function PasswordStep({ onNext, onBack }) {
 
             <div className="signup-header">
 
-                <button className="back-button"onClick={onBack}>
+                <button className="back-button" onClick={onBack}>
                     <span></span>
                 </button>
 
@@ -53,7 +53,13 @@ function PasswordStep({ onNext, onBack }) {
 
                 </div>
 
-                <button className="next-button" type="button" onClick={onNext}>Next</button>
+                <button 
+                    className="next-button" 
+                    type="button" 
+                    onClick={onNext}
+                >
+                    Next
+                </button>
             </div>
         
         </div>

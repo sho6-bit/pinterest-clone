@@ -34,12 +34,22 @@ function EmailStep({ onNext, onBack }) {
                 </div>
 
                 <div className="signup-form">
+
                     <h1>What's your email?</h1>
+                    
                     <input 
-                    ref={emailInput}
-                    type="email" 
-                    placeholder="Enter your email address" />
-                    <button className="next-button" type="button" onClick={onNext}>Next</button>
+                        ref={emailInput}
+                        type="email" 
+                        placeholder="Enter your email address" 
+                    />
+                    <button 
+                        className="next-button" 
+                        type="button" 
+                        onClick={onNext}
+                    >
+                        Next
+                    </button>
+
                 </div>
 
                 <div className="suggestion-container">
