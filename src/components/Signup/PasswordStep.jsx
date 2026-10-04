@@ -60,6 +60,7 @@ function PasswordStep({ onNext, onBack }) {
                 >
                     Next
                 </button>
+                
             </div>
         
         </div>

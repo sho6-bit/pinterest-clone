@@ -172,3 +172,32 @@
     border: 1px solid #000000;
     border-radius: 15px;
 }
+
+.birthdate-input {
+    margin-top: 20px;
+    position: relative;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.birthdate-input > input {
+    margin: 20px 0px 20px 0px;
+    font-size: 14px;
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.h5 {
+    font-size: 14px;
+}
+
+.birthdate-input > p {
+    font-size: 10px;
+    color: #8d8f87;
+    margin-top: 15px;
+}
