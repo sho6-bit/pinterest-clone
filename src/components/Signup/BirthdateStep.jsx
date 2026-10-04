@@ -39,12 +39,15 @@ function BirthdateStep({ onNext, onBack }) {
                 <div className="birthday-input">
 
                     <h1>Enter your birthdate</h1>
+
                     <input 
                         type="date" 
                         id="birth-date" 
                     />
+
                     <p>Knowing your age helps keeps Pinterest safe for everyone. It won't be visible to others.</p>
                     <p>Use your own birthdate, even if this a business account.</p>
+                    
                     <button 
                         className="back-button"
                         type="button" 
@@ -52,11 +55,11 @@ function BirthdateStep({ onNext, onBack }) {
                     >
                         Next
                     </button>
+
                 </div>
 
             </div>
             
-
         </div>
 
     )
