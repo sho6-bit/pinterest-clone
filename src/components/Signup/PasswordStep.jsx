@@ -36,7 +36,7 @@ function PasswordStep({ onNext, onBack }) {
                 
                 <div className="password-input">
 
-                     <p>Password</p>
+                     <p className="info-p">Password</p>
 
                     <input 
                         type={showPassword ? "text" : "password"} 
