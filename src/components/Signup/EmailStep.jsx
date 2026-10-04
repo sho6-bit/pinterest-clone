@@ -10,7 +10,7 @@ function EmailStep({ onNext, onBack }) {
 
     return (
 
-        <main className="email-page">
+        <main className="page">
 
             <div>
 

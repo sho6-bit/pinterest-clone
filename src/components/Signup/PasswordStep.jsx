@@ -7,7 +7,7 @@ function PasswordStep({ onNext, onBack }) {
 
     return (
 
-        <div className="password-page">
+        <div className="page">
 
             <div className="signup-header">
 

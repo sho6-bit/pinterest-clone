@@ -3,7 +3,7 @@ import "./signup.css"
 function BirthdateStep({ onNext, onBack }) {
     return(
 
-        <div className="birthdate-page">
+        <div className="page">
 
             <div className="signup-header">
 
