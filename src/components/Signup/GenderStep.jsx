@@ -27,7 +27,7 @@ function GenderStep({ onNext, onBack }) {
             <div className="signup-form">
 
                 <h1>What's your gender?</h1>
-                <p>This will influence the content you see. It won't be visible to others.</p>
+                <p className="info-p">This will influence the content you see. It won't be visible to others.</p>
                 
                 <div className="gender-option">
 
