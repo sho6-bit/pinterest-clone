@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Gateway from "./components/Gateway/Gateway.jsx"
 import Signup from "./components/Signup/Signup.jsx"
-import Signup from "./components/Login/Login.jsx"
+import Login from "./components/Login/Login.jsx"
 
 function App() {
     const [page, setPage] = useState("gateway")

@@ -1,6 +1,6 @@
 import "./gateway.css"
 
-function Gateway({ onSignup }) {
+function Gateway({ onSignup, onLogin }) {
     return (
         
         <main className="gateway-page">
@@ -29,7 +29,7 @@ function Gateway({ onSignup }) {
                     <button className="signup-button" onClick={onSignup}>
                         Sign Up
                     </button>
-                    <button className="login-button">
+                    <button className="login-button" onClick={onLogin}>
                         Log In
                     </button>
                     <p>You must be at least 16 years old to use Pinterest. By continuing, you agree to Pinterest's 
