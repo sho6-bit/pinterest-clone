@@ -1,3 +1,4 @@
+import { Search, Camera } from "lucide-react"
 import "./signup.css"
 
 function Interests({ onBack, onNext }) {
@@ -257,13 +258,20 @@ function Interests({ onBack, onNext }) {
 
                 <h3>Looking for something else?</h3>
 
-                <input 
-                    className="search-input"
-                    type="text" 
-                    placeholder="Search" 
-                /> 
+                <div className="search-bar">
 
-                {/* kasih logo search dan camera di dalam input field */}
+                    <Search className="search-icon" size={18} />
+
+                    <input 
+                        type="text" 
+                        placeholder="Search" 
+                    /> 
+
+                    <button className="camera-button">
+                        <Camera size={18} />
+                    </button>
+
+                </div>
                 
                 <button 
                     className="next-button" 
