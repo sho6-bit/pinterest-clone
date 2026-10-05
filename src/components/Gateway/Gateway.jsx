@@ -24,7 +24,7 @@ function Gateway({ onSignup, onLogin }) {
                 </div>
 
                 <div className="gateway-menu">
-                    <img src="src/assets/images/pinterest-logo.png" alt="Pinterest Logo" />
+                    <img src="src/assets/images-logo/pinterest-logo.png" alt="Pinterest Logo" />
                     <h2>Create a life you love</h2>
                     <button className="signup-button" onClick={onSignup}>
                         Sign Up

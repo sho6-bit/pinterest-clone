@@ -26,10 +26,20 @@ function Login({ onBack }) {
                 <div>
 
                     <button className="social-button">
+                        <img 
+                            src="src/assets/images-logo/Google-logo.png" 
+                            alt="Google logo" 
+                            className="button-logo"
+                        />
                         Continue with Google
                     </button>
 
                     <button className="social-button">
+                        <img 
+                            src="src/assets/images-logo/Apple-logo.png" 
+                            alt="Apple logo" 
+                            className="button-logo"
+                        />
                         Continue with Apple
                     </button>
 
@@ -45,7 +55,6 @@ function Login({ onBack }) {
                     <input
                         className="email-input"
                         type="email"
-                        placeholder="Email"
                     />
 
                 </div>
@@ -58,12 +67,11 @@ function Login({ onBack }) {
                         
                         <input
                             type={showPassword ? "text" : "password"} 
-                            placeholder="Create a strong password" 
                         />
 
                         <button
                             type="button"
-                            className="password-toggle"
+                            className="login-password-toggle"
                             onClick={() => setShowPassword(!showPassword)}
                         >
                             {showPassword ? <Eye /> : <EyeOff />}
@@ -74,7 +82,9 @@ function Login({ onBack }) {
 
                 </div>
 
-                <button className="login-button">
+                <a href="#" src="">Forgot your password?</a>
+
+                <button className="actual-login-button">
                     Log In
                 </button>
 
