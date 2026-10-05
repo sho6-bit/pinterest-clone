@@ -5,6 +5,8 @@ function EmailStep({ onNext, onBack }) {
     const emailInput = useRef(null);
     const [email, setEmail] = useState ("")
 
+    const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+
     useEffect(() => {
         emailInput.current?.focus()
     }, [])
@@ -63,6 +65,7 @@ function EmailStep({ onNext, onBack }) {
                         className="next-button" 
                         type="button" 
                         onClick={onNext}
+                        disabled={!isValidEmail}
                     >
                         Next
                     </button>
